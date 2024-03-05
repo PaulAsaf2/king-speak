@@ -1,0 +1,63 @@
+body {
+  font-family: "TT Firs Neue", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+h1, h2, h3, h4, h5, a, p, ol, ul, li {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 24px 20px 36px 20px;
+}
+
+.header_logo {
+  width: 158px;
+}
+
+.contacts_text {
+  text-align: right;
+  font-weight: 400;
+}
+
+.contacts_text:first-child {
+  margin-bottom: 2px;
+}
+
+.main {
+  margin: 0 40px 50px 36px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.article_title_cont {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+  margin-bottom: 14px;
+}
+
+.article_title {
+  font-size: 20px;
+  margin-top: 4px;
+  font-weight: 300;
+}
+
+.article_text {
+  font-size: 17px;
+  line-height: 1.6;
+  font-weight: 200;
+}
+
+.article_list {
+  padding: 0;
+  list-style-type: none;
+}
