@@ -5,13 +5,25 @@
 * Browsers: last 4 version
 */
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat/static/Montserrat-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat/static/Montserrat-Light.ttf');
+  font-weight: 300;
+}
+
 body {
-  font-family: "TT Firs Neue", Verdana, sans-serif;
+  font-family: "Montserrat", Verdana, sans-serif;
+  /* font-family: "TT Firs Neue", Verdana, sans-serif; */
   font-optical-sizing: auto;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings: "slnt" 0;
 }
 
 h1, h2, h3, h4, h5, a, p, ol, ul, li {
@@ -68,7 +80,7 @@ h1, h2, h3, h4, h5, a, p, ol, ul, li {
 .article_title {
   font-size: 20px;
   margin-top: 4px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .article_text {
