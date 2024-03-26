@@ -82,12 +82,7 @@ h1, h2, h3, h4, h5, a, p, ol, ul, li {
   margin-top: 4px;
 }
 
-.article_list {
-  padding: 0;
-  list-style-type: none;
-}
-
-.article_text {
+.paragraph {
   font-size: 21px;
   line-height: 1.6;
   margin-bottom: 10px;
