@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, a, p, ol, ul, li {
 }
 
 .header_logo {
-  width: 158px;
+  width: 220px;
 }
 
 .contacts_text {
@@ -65,24 +65,30 @@ h1, h2, h3, h4, h5, a, p, ol, ul, li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-column-gap: 6px;
-     -moz-column-gap: 6px;
-          column-gap: 6px;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
   margin-bottom: 14px;
+}
+
+.article_icon {
+  width: 36px;
+  height: 36px;
 }
 
 .article_title {
   font-family: "Montserrat Extra Light", Arial, sans-serif;
-  font-size: 27px;
+  font-size: 24px;
   margin-top: 4px;
-}
-
-.article_text {
-  font-size: 22px;
-  line-height: 1.6;
 }
 
 .article_list {
   padding: 0;
   list-style-type: none;
+}
+
+.article_text {
+  font-size: 21px;
+  line-height: 1.6;
+  margin-bottom: 10px;
 }
