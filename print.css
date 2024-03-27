@@ -15,6 +15,14 @@
   src: url('./assets/fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
 }
 
+@page {
+  margin: 50px 20px 70px 20px;
+}
+
+@page :first {
+  margin: 20px 20px 70px 20px;
+}
+
 body {
   font-family: "Montserrat Extra Light", Arial, sans-serif;
 }
@@ -33,7 +41,6 @@ h1, h2, h3, h4, h5, a, p, ol, ul, li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 24px 20px 36px 20px;
 }
 
 .header_logo {
@@ -47,7 +54,7 @@ h1, h2, h3, h4, h5, a, p, ol, ul, li {
 }
 
 .main {
-  margin: 0 40px 50px 36px;
+  margin: 0 26px 0 26px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,7 +62,6 @@ h1, h2, h3, h4, h5, a, p, ol, ul, li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  row-gap: 24px;
 }
 
 .article_title_cont {
@@ -63,12 +69,12 @@ h1, h2, h3, h4, h5, a, p, ol, ul, li {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+     -ms-flex-align: center;
+        align-items: center;
   -webkit-column-gap: 10px;
      -moz-column-gap: 10px;
           column-gap: 10px;
-  margin-bottom: 14px;
+          margin: 14px 0 0 0;
 }
 
 .article_icon {
@@ -79,11 +85,10 @@ h1, h2, h3, h4, h5, a, p, ol, ul, li {
 .article_title {
   font-family: "Montserrat Extra Light", Arial, sans-serif;
   font-size: 24px;
-  margin-top: 4px;
 }
 
 .paragraph {
   font-size: 21px;
   line-height: 1.6;
-  margin-bottom: 10px;
 }
+
